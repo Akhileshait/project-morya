@@ -439,7 +439,7 @@ footer p {
   text-align: center;
 }
 
-.color-container iframe{
+.color-container iframe, video{
   height: 100%;
   width: 90%;
 }
