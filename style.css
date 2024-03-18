@@ -268,19 +268,12 @@ section {
 }
 
 .about-containers {
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-}
-
-.about-details-container {
   justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -295,14 +288,16 @@ section {
 }
 
 .details-container {
-  
   padding: 1.5rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+}
+
+.color-container{
+  width: 80%;
 }
 
 .section-container {
@@ -328,14 +323,10 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-.experience-details-container .about-con img{
-  height: 350px;
+.experience-details-container img{
+  width: 96%;
 }
 
-.experience-details-container .about-con{
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -348,6 +339,9 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .article-container {
@@ -375,6 +369,7 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  height: 30vw;
 }
 
 .project-img {
@@ -442,4 +437,9 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.color-container iframe{
+  height: 100%;
+  width: 90%;
 }
